@@ -1,26 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-sync function main(){
-    const uri = "mongodb+srv://timzou2005:wadd2005@cluster0.gehhk1g.mongodb.net/test?retryWrites=true&w=majority";
-    const {MongoClient} = require('mongodb');
-    const client = new MongoClient(uri);
- 
-    try {
-        // Connect to the MongoDB cluster
-        await client.connect();
- 
-    } catch (e) {
-        console.error(e);
-    }
-
-    const myCollection = client.collection("User");
-    const doc = {Name: 'A', 'Password': 'B'};
-    //Add Record
-    const result = await myCollection.insertOne(doc);
-  
-}
-
 export default function Home() {
     return (
         <div className="font-saira bg-space-blue w-screen h-screen text-white flex-col-centered">
