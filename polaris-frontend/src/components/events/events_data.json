@@ -289,7 +289,7 @@
     },
     {
         "event_name": "Hacky Hour",
-        "event_time": "12:30 - 2 pm Sunday, September 15th",
+        "event_time": "12:30 till 2 pm Sunday, September 15th",
         "location": "E7 1st floor",
         "description": "Grab a snack, meet hackers, and learn more about each other's projects during this social hour."
     },
@@ -301,8 +301,260 @@
     },
     {
         "event_name": "Finalist Hardware Return",
-        "event_time": "4:00 - 4:30 Sunday, September 15th",
+        "event_time": "4:00 till 4:30 Sunday, September 15th",
         "location": "Shopify Hardware Hub",
         "description": "Finalists return any remaining hardware. Wrap up the weekend with live demos of finalist projects."
+    }
+    {
+    "event_name": "Idea to Startup",
+    "event_time": "2:00 PM - 3:00 PM",
+    "location": "Workshop Room 7A",
+    "description": "Join a panel discussion with founders and venture capital experts on turning Hack the North projects into startups."
+    },
+    {
+    "event_name": "What the Future - What’s Next for Generative AI?",
+    "event_time": "4:00 PM - 5:00 PM",
+    "location": "Workshop Room 7A",
+    "description": "A visionary panel on the future of generative AI, covering trends, industry impacts, and potential applications."
+    },
+    {
+    "event_name": "Cracking the Career Code",
+    "event_time": "5:30 PM - 6:30 PM",
+    "location": "Workshop Room 7A",
+    "description": "A panel on career choices in tech, discussing various roles and industries from startups to big tech."
+    },
+    {
+    "event_name": "HTN Night Live: Resume Edition",
+    "event_time": "9:00 PM - 10:00 PM",
+    "location": "Workshop Room 3B",
+    "description": "Submit your resume for live feedback from experienced professionals, while learning helpful tips for improving it."
+    },
+    {
+    "event_name": "Creation Lab: Kickstart Your Hackathon Idea",
+    "event_time": "12:00 AM - 1:00 AM",
+    "location": "Workshop Room 4A",
+    "description": "Brainstorm project ideas using design thinking and team activities to kickstart your hackathon journey."
+    },
+    {
+    "event_name": "Design Engineering & Tactically Using Figma",
+    "event_time": "12:00 AM - 1:00 AM",
+    "location": "Workshop Room 4B",
+    "description": "Learn Figma essentials for creating wireframes, prototypes, and design handoffs to developers."
+    },
+    {
+    "event_name": "Rapid Web Development: Everything Frontend in <1 Hour",
+    "event_time": "12:00 AM - 1:00 AM",
+    "location": "Workshop Room 4C",
+    "description": "Explore tools for quick frontend development, covering design, prototyping, APIs, and selective rendering."
+    },
+    {
+    "event_name": "Mobile App Development",
+    "event_time": "1:30 AM - 2:30 AM",
+    "location": "Workshop Room 4A",
+    "description": "Develop cross-platform mobile apps using Flutter, comparing SDKs and building an app for your phone."
+    },
+    {
+    "event_name": "A Dreamer’s Guide to AR/VR Development",
+    "event_time": "1:30 AM - 2:30 AM",
+    "location": "Workshop Room 4B",
+    "description": "Learn AR/VR app development in Unity, with a focus on Meta SDK integration and hand-tracking inputs."
+    },
+    {
+    "event_name": "Hypermedia & HTMX - A Different Approach To Full-Stack Development",
+    "event_time": "1:30 AM - 2:30 AM",
+    "location": "Workshop Room 4C",
+    "description": "Learn how to build dynamic web apps using HTMX with minimal JavaScript and backend versatility."
+    },
+    {
+    "event_name": "Fantastic Agents and How to Build Them",
+    "event_time": "10:00 AM - 11:00 AM",
+    "location": "Workshop Room 4A",
+    "description": "Build autonomous AI agents using large language models (LLMs) for your hackathon project."
+    },
+    {
+    "event_name": "Spark It Up: Igniting Big Data",
+    "event_time": "10:00 AM - 11:00 AM",
+    "location": "Workshop Room 4B",
+    "description": "Introduction to Apache Spark and hands-on activities using PySpark for Big Data applications."
+    },
+    {
+    "event_name": "Printed Circuit Boards 101: Building a Binary Clock",
+    "event_time": "11:00 AM - 12:00 PM",
+    "location": "Workshop Room 3A",
+    "description": "Design your own PCB binary clock while learning about printed circuit boards and their applications."
+    },
+    {
+    "event_name": "Intro to Rust: Oxidize the Classic Command-Line App",
+    "event_time": "11:00 AM - 12:00 PM",
+    "location": "Workshop Room 3B",
+    "description": "Learn Rust development by building a command-line app with basic encryption."
+    },
+    {
+    "event_name": "Hacking Web Applications: An Introduction to Common Web Vulnerabilities for CTFs and Real-Life Pentests",
+    "event_time": "12:00 PM - 1:00 PM",
+    "location": "Workshop Room 4A",
+    "description": "Explore common web vulnerabilities like XSS and SQL injection with hands-on pen-testing using BurpSuite."
+    },
+    {
+    "event_name": "From Pit Stop to Podium: Mastering Technical Project Management for Complex Engineering Teams",
+    "event_time": "12:00 PM - 1:00 PM",
+    "location": "Workshop Room 4B",
+    "description": "Learn strategies for managing diverse engineering teams in the context of building autonomous race cars."
+    },
+    {
+    "event_name": "Causal Inference: AI Beyond Correlations and ML",
+    "event_time": "1:00 PM - 2:00 PM",
+    "location": "Workshop Room 3A",
+    "description": "Learn the principles of causal inference and apply them using Python libraries for AI and machine learning."
+    },
+    {
+    "event_name": "Introduction to Nvidia CUDA",
+    "event_time": "1:00 PM - 2:00 PM",
+    "location": "Workshop Room 3B",
+    "description": "An introduction to Nvidia CUDA programming using Google Colab for parallel GPU computation."
+    },
+    {
+    "event_name": "What They Don’t Tell You About Technical Interviews",
+    "event_time": "2:00 PM - 3:00 PM",
+    "location": "Workshop Room 4A",
+    "description": "Explore hidden aspects of technical interviews, focusing on how successful candidates stand out."
+    },
+    {
+    "event_name": "Hackathon Pitching 101",
+    "event_time": "2:00 PM - 3:00 PM",
+    "location": "Workshop Room 4B",
+    "description": "Learn how to effectively pitch your hackathon project to judges, including demoing tips and techniques."
+    }
+    {
+        "event_name": "Convex: How to Use the Convex Backend Platform to Build a Full-Stack Web App in Minutes",
+        "event_time": "12:00 AM - 12:30 AM",
+        "location": "Workshop Room 3A",
+        "description": "Learn how to use Convex to build full-stack web apps quickly, utilizing serverless functions and React libraries for app prototyping."
+    },
+    {
+        "event_name": "Groq: How to Use Groq Cloud for Fast AI Inference",
+        "event_time": "12:00 AM - 12:30 AM",
+        "location": "Workshop Room 3B",
+        "description": "See how Groq powers leading AI models like Llama 3.1, and learn how to switch seamlessly from other providers with minimal code changes."
+    },
+    {
+        "event_name": "RBC Avion Rewards – Making Your Point with Points",
+        "event_time": "12:30 AM - 1:00 AM",
+        "location": "Workshop Room 5A",
+        "description": "Explore RBC’s Developer Portal and APIs to leverage Avion Rewards in your projects, engaging customers with offers, cashback, and points."
+    },
+    {
+        "event_name": "Genesys: Empowering Empathetic Experiences - Unleashing the Power of Genesys Cloud APIs",
+        "event_time": "12:30 AM - 1:00 AM",
+        "location": "Workshop Room 5B",
+        "description": "Explore Genesys Cloud APIs to create empathetic customer experiences, from surveys to sentiment analysis and beyond."
+    },
+    {
+        "event_name": "MASV: Mastering MASV's API",
+        "event_time": "1:00 AM - 1:30 AM",
+        "location": "Workshop Room 3A",
+        "description": "Learn to incorporate MASV into your projects for fast and scalable data transfers, with a chance to win a $1000 CAD Amazon gift card."
+    },
+    {
+        "event_name": "Voiceflow: Building AI Agents Quickly with Voiceflow",
+        "event_time": "1:00 AM - 1:30 AM",
+        "location": "Workshop Room 3B",
+        "description": "Learn to build AI agents and apps using Voiceflow APIs, ideal for fast innovation and project development."
+    },
+    {
+        "event_name": "Cohere: Build an LLM Agent with Multi-Step Tool Use",
+        "event_time": "1:30 AM - 2:00 AM",
+        "location": "Workshop Room 5A",
+        "description": "Create smart agents using Cohere's API and language models, designed to perform complex tasks through multi-step tool usage."
+    },
+    {
+        "event_name": "Pinecone: Build a Knowledgeable Assistant with Pinecone Assistant",
+        "event_time": "1:30 AM - 2:00 AM",
+        "location": "Workshop Room 5B",
+        "description": "Develop AI assistants that answer complex questions about custom data using simple API calls in this hands-on workshop."
+    },
+    {
+        "event_name": "Chroma: Building AI Applications",
+        "event_time": "2:00 AM - 2:30 AM",
+        "location": "Workshop Room 3A",
+        "description": "Anton Troynikov, co-founder of Chroma, will demonstrate how to use AI to build software that processes unstructured data."
+    },
+    {
+        "event_name": "MappedIn: Make a Map, Build an App (in Minutes)",
+        "event_time": "2:00 AM - 2:30 AM",
+        "location": "Workshop Room 3B",
+        "description": "Learn to create and deploy a custom map using MappedIn’s features in just a few minutes during this interactive workshop."
+    },
+    {
+        "event_name": "CSE: The Most Interesting Organization That You’ve Never Heard Of",
+        "event_time": "2:30 AM - 3:00 AM",
+        "location": "Workshop Room 5A",
+        "description": "Learn about Canada's cryptological agency, foreign signals intelligence, and its lead role in foreign cyber operations."
+    },
+    {
+        "event_name": "Intuit Workshop",
+        "event_time": "2:30 AM - 3:00 AM",
+        "location": "Workshop Room 5B",
+        "description": "Intuit’s workshop on their development tools and APIs."
+    },
+    {
+        "event_name": "AWS: Unleashing the Power of AI/ML: From Industry Disruption to Text Generation with AWS Bedrock",
+        "event_time": "3:00 AM - 3:30 AM",
+        "location": "Workshop Room 3A",
+        "description": "Learn how AI/ML is used in the industry with AWS, including a short workshop on text generation and summarization using Amazon Bedrock."
+    },
+    {
+        "event_name": "Defang: Cloud Jam by Defang",
+        "event_time": "3:00 AM - 3:30 AM",
+        "location": "Workshop Room 3B",
+        "description": "Join this hands-on workshop to level up your cloud development skills using Docker and Defang for cloud apps."
+    },
+    {
+        "event_name": "Warp: How to Become a Command Line Connoisseur",
+        "event_time": "3:00 AM - 3:30 AM",
+        "location": "Workshop Room 4A",
+        "description": "Explore terminal tips and tricks to increase productivity and learn the fascinating history of terminals in this deep dive."
+    }
+    {
+      "event_name": "MASV Lightning Challenge",
+      "event_time": "10:30 AM - 11:30 AM",
+      "location": "Workshop Room 5B",
+      "description": "Test your skills by uploading a file to a local server. Challenges include network failures and ensuring file integrity. Prizes for top performers."
+    },
+    {
+      "event_name": "DRW Hacking Challenge",
+      "event_time": "12:00 PM - 1:00 PM",
+      "location": "Workshop Room 5A",
+      "description": "Crack a complex code inspired by trading. First 3 to solve it win exclusive DRW swag."
+    },
+    {
+      "event_name": "Codegen: Import Graph Visualization",
+      "event_time": "1:30 PM - 2:30 PM",
+      "location": "Workshop Room 5B",
+      "description": "Create a graph visualization of a Python codebase. Use tools like AST, Tree-Sitter, and NetworkX to represent and analyze the code."
+    },
+    {
+      "event_name": "Cohere: Power of RAG Systems",
+      "event_time": "11:00 AM - 12:00 PM",
+      "location": "Workshop Room 4C",
+      "description": "Explore retrieval-augmented generation systems to reduce model hallucinations and integrate private data."
+    },
+    {
+      "event_name": "Jane Street: Aria Tech Talk",
+      "event_time": "1:00 PM - 2:00 PM",
+      "location": "Workshop Room 4C",
+      "description": "Learn about Aria, a low-latency framework for handling data races and process failures in trading infrastructure."
+    },
+    {
+      "event_name": "Shopify: AI Unleashed",
+      "event_time": "3:00 PM - 4:00 PM",
+      "location": "Workshop Room 4C",
+      "description": "Discover how AI is revolutionizing technology and how you can use it to innovate in your projects."
+    },
+    {
+      "event_name": "Office Hours",
+      "event_time": "1:30 PM - 5:00 PM",
+      "location": "Workshop Room 5A",
+      "description": "Get expert help with sponsor APIs and project submissions. Drop by for advice and assistance."
     }
 ]
