@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -34,9 +35,10 @@ export default function Home() {
                     <span className="font-light">Planning your next move </span>
                     <span className="font-semibold">shouldn't be</span>
                 </h2>
-                <button className="bg-button-orange rounded-lg w-72 h-12 text-black font-saira text-xl tracking-tighter font-medium mt-36">
+                <Link href="./events"
+                className="bg-button-orange rounded-lg w-72 h-12 text-black font-saira text-xl tracking-tighter font-medium mt-36">
                     See what hackers are up to -{'>'}
-                </button>
+                </Link>
 
             </div>
         </div>
