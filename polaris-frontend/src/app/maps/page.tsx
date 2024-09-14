@@ -1,9 +1,12 @@
-import React from 'react'
+import Map from "@/components/Map/Map";
 
-const page = () => {
+const HomePage = () => {
   return (
-    <div className='w-screen h-screen'>page</div>
-  )
-}
+    <div>
+      <h1>Map Integration</h1>
+      <Map />
+    </div>
+  );
+};
 
-export default page
+export default HomePage;
