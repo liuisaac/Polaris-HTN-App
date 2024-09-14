@@ -130,7 +130,7 @@ const Navbar = () => {
                     ["Home", "/"],
                     ["Maps", "/maps"],
                     ["Photos", "/photos"],
-                    ["Profile", "/profile"],
+                    ["Events", "/events"],
                 ].map(([title, url, delay]) => (
                     <a
                         href={url}

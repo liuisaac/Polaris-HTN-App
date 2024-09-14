@@ -1,3 +1,5 @@
+"use client"
+
 import { useState } from 'react';
 import eventsData from './events_data.json';
 
