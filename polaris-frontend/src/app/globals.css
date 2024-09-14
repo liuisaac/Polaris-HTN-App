@@ -25,3 +25,13 @@ body {
     text-wrap: balance;
   }
 }
+
+.flex-col-centered {
+  @apply flex flex-col items-center justify-center;
+}
+
+.flex-row-centered {
+  @apply flex flex-row items-center justify-center;
+}
+
+
