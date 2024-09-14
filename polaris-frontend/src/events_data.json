@@ -1,0 +1,308 @@
+[
+    {
+        "event_name": "Team Formation Workshop",
+        "event_time": "Friday from 11:00 PM to 12:00 AM",
+        "location": "Activities Room. E7",
+        "description": "Join the workshop to form teams and meet new hackers."
+    },
+    {
+        "event_name": "Men Only Sleep Area",
+        "event_time": "Saturday 12:00 AM till Sunday 1:00 PM",
+        "location": "First floor of E6",
+        "description": "Designated sleeping area for men. Sleeping masks available at the front desk."
+    },
+    {
+        "event_name": "Shopify Hardware Hub",
+        "event_time": "Open all weekend except Saturday 2:00 AM - 9:00 AM and Sunday 2:00 AM - 7:00 AM",
+        "location": "First floor of E7 rooms 1427/1437",
+        "description": "Check out and return hardware during the event."
+    },
+    {
+        "event_name": "Men Only Sleep Area",
+        "event_time": "Saturday 12:00 AM till Sunday 1:00 PM",
+        "location": "Second floor In E6",
+        "description": "Designated sleeping area for men. Sleeping masks available at the front desk."
+    },
+    {
+        "event_name": "Women Only Sleep Area",
+        "event_time": "Saturday 12:00 AM till Sunday 1:00 PM",
+        "location": "Third floor In E6, accessible from E7 via bridge",
+        "description": "Designated sleeping area for women. Sleeping masks available at the front desk."
+    },
+    {
+        "event_name": "Gender Neutral Sleep Area",
+        "event_time": "Saturday 12:00 AM till Sunday 1:00 PM",
+        "location": "Fourth floor In E6",
+        "description": "Gender neutral sleeping area. Sleeping masks available at the front desk."
+    },
+    {
+        "event_name": "Women Only Sleep Area",
+        "event_time": "Saturday 12:00 AM till Sunday 1:00 PM",
+        "location": "Fifth floor In E6",
+        "description": "Designated sleeping area for women. Sleeping masks available at the front desk."
+    },
+    {
+        "event_name": "Sleep in E5",
+        "event_time": "Open from Saturday 12:00 AM till Sunday 1:00 PM",
+        "location": "Floor 6: Rooms 6008, 6006, 6004, 6003, gender-neutral",
+        "description": "Gender-neutral sleep rooms available for all participants."
+    },
+    {
+        "event_name": "Sleep in E7",
+        "event_time": "Open from Saturday 12:00 AM till Sunday 8:00 AM",
+        "location": "Room 1302",
+        "description": "Sleeping bag room for hackers. Bring your own sleeping bag for a quiet rest area."
+    },
+    {
+        "event_name": "Opening Ceremony",
+        "event_time": "Friday, 9:00 PM - 11:00 PM",
+        "location": "Lazaridis Hall, 64 University Ave W, Waterloo, ON N2L 3C7",
+        "description": "Energizing talks from inspiring speakers and sponsors. Free swag available."
+    },
+    {
+        "event_name": "Closing Ceremony",
+        "event_time": "Sunday, 2:30 PM - 4:00 PM",
+        "location": "Lazaridis Hall, 64 University Ave W, Waterloo, ON N2L 3C7",
+        "description": "Presentations from sponsors, finalist announcements, and giveaways."
+    },
+    {
+        "event_name": "Hacky Hour",
+        "event_time": "Sunday from 12:30 to 2:00 PM",
+        "location": "E7 1st floor",
+        "description": "Refreshments and networking opportunities for participants."
+    },
+    {
+        "event_name": "Event Long Activities",
+        "event_time": "Friday 13th 5:00 PM till Sunday 5:00 PM",
+        "location": "E7 1st floor, near help desk",
+        "description": "Non-stop activities throughout the event duration."
+    },
+    {
+        "event_name": "Registration",
+        "event_time": "5:30 PM to 11:00 PM Friday, September 13th",
+        "location": "RBC Oasis Tent",
+        "description": "Mandatory registration for all participants."
+    },
+    {
+        "event_name": "Dinner: Chicken Chick Alfredo",
+        "event_time": "6:00 PM - 12:00 AM Friday 13th",
+        "location": "RBC Oasis Tent",
+        "description": "Delicious chicken Alfredo pasta served for dinner."
+    },
+    {
+        "event_name": "Balloon Animals",
+        "event_time": "9:30 PM till 12:00 AM Friday 13th",
+        "location": "E7 1st floor",
+        "description": "Fun balloon animal making for participants."
+    },
+    {
+        "event_name": "Snack: Funnel Cakes",
+        "event_time": "10:00 PM till 2:00 AM Friday 13th",
+        "location": "RBC Oasis Tent",
+        "description": "Enjoy tasty funnel cakes during the late night snack session."
+    },
+    {
+        "event_name": "Hardware Checkout Opens",
+        "event_time": "Friday 13th 10:00 PM",
+        "location": "Shopify Hardware Hub",
+        "description": "Official opening of the hardware checkout service."
+    },
+    {
+        "event_name": "Team Formation with MLH",
+        "event_time": "11:00 PM till 12:00 AM Friday 13th",
+        "location": "Activities Room in E7",
+        "description": "MLH helps participants form teams for the hackathon."
+    },
+    {
+        "event_name": "Hacking Starts",
+        "event_time": "12:00 AM Saturday 14th",
+        "location": "Hackathon Venue",
+        "description": "Official start of the hackathon."
+    },
+    {
+        "event_name": "Breakfast: Waffle Bar",
+        "event_time": "8:00 AM till 10:00 AM Saturday 14th",
+        "location": "RBC Oasis Tent",
+        "description": "Start your morning with a tasty waffle breakfast."
+    },
+    {
+        "event_name": "Yoga",
+        "event_time": "9:00 AM - 9:45 AM Saturday 14th",
+        "location": "Empowerment Lounge",
+        "description": "Relaxing morning yoga session to refresh yourself."
+    }
+    {
+        "event_name": "Sponsor Coffee Chats and Meetups",
+        "event_time": "10 am till 5 pm Saturday 14th",
+        "location": "Coffee Chats Rooms A-C",
+        "description": "Casual meetups with sponsors over coffee. An opportunity to network and learn from industry leaders."
+    },
+    {
+        "event_name": "MLH: Making Better Hacks, Faster with GitHub Copilot",
+        "event_time": "10 am till 11 am Saturday 14th",
+        "location": "Activities Room in E7",
+        "description": "A session by MLH to demonstrate how GitHub Copilot can enhance your hacking speed and creativity."
+    },
+    {
+        "event_name": "Customize Your Tote Bag!",
+        "event_time": "11:30 am till 2:30 pm Saturday 14th",
+        "location": "E7 1st floor",
+        "description": "Customize your tote bags with stickers, paints, and other creative materials."
+    },
+    {
+        "event_name": "Lunch: Chicken, Beef, and Veggie Burgers",
+        "event_time": "1 pm till 2 pm Saturday 14th",
+        "location": "RBC Oasis Tent",
+        "description": "Enjoy a variety of burgers during lunch. Options include chicken, beef, and veggie."
+    },
+    {
+        "event_name": "Therapy Dogs",
+        "event_time": "1 pm till 2 pm Saturday 14th",
+        "location": "Activities Room",
+        "description": "Relax and de-stress with therapy dogs. A great way to recharge during the hackathon."
+    },
+    {
+        "event_name": "Photo Booth",
+        "event_time": "1 pm till 6 pm Saturday 14th",
+        "location": "E7 1st floor",
+        "description": "Capture the memories with fun props and backgrounds at the photo booth."
+    },
+    {
+        "event_name": "Sponsor Office Hours",
+        "event_time": "1:30 pm till 5:00 pm Saturday 14th",
+        "location": "Room 5A",
+        "description": "Drop in and discuss potential opportunities and ideas with various sponsors."
+    },
+    {
+        "event_name": "Bubble Soccer",
+        "event_time": "2 pm till 4 pm Saturday 14th",
+        "location": "Room 5A",
+        "description": "Join in the fun with bubble soccer. Bump and bounce around in an inflatable zorb."
+    },
+    {
+        "event_name": "MS Paint Bob Ross with MLH",
+        "event_time": "2:30 pm till 3:30 pm Saturday 14th",
+        "location": "Activities Room E7 First Floor",
+        "description": "Channel your inner Bob Ross with MS Paint. A relaxing painting session hosted by MLH."
+    },
+    {
+        "event_name": "Meet Ups",
+        "event_time": "3 pm till 10 pm Saturday 14th",
+        "location": "Empowerment Lounge",
+        "description": "An open space for participants to meet, discuss projects, and share ideas."
+    },
+    {
+        "event_name": "Snack: Ice Cream",
+        "event_time": "4 pm till 5:30 pm Saturday 14th",
+        "location": "RBC Oasis Tent",
+        "description": "Cool down with a variety of ice cream flavors available as an afternoon snack."
+    },
+    {
+        "event_name": "Gaming Lounge",
+        "event_time": "5:00 pm till 9 pm Saturday 14th",
+        "location": "Activities Room",
+        "description": "Relax and play video games in the gaming lounge. A variety of games available for all interests."
+    },
+    {
+        "event_name": "Dinner: Power Bowls",
+        "event_time": "5:00 pm till 9:00 pm Saturday 14th",
+        "location": "Activities Room",
+        "description": "Nutritious power bowls served for dinner, featuring a mix of grains, proteins, and vegetables."
+    },
+    {
+        "event_name": "Karaoke",
+        "event_time": "7:30 pm till 9 pm Saturday 14th",
+        "location": "RBC Oasis Tent",
+        "description": "Sing your heart out at the karaoke session. A fun way to unwind and showcase your vocal talents."
+    },
+    {
+        "event_name": "Snack: Soup",
+        "event_time": "9:30 pm till 11:30 pm Saturday 14th",
+        "location": "RBC Oasis Tent",
+        "description": "Warm up with a delicious selection of soups available during the evening snack time."
+    },
+    {
+        "event_name": "Trivia",
+        "event_time": "10:30 pm till 11:30 pm Saturday 14th",
+        "location": "Activities Room E7 First Floor",
+        "description": "Participate in a fun trivia game. Test your knowledge and win prizes."
+    },
+    {
+        "event_name": "Silent Disco",
+        "event_time": "10:30 pm till 1 am Saturday 14th - Sunday 15th",
+        "location": "Design Bay",
+        "description": "Dance the night away at the silent disco. Grab a headset and enjoy the music."
+    },
+    {
+        "event_name": "Hot Sauce Challenge",
+        "event_time": "September 15th Sunday 12:30 am till 1:30 am",
+        "location": "Activities Room",
+        "description": "Test your spice tolerance in the hot sauce challenge. Prizes for participants."
+    },
+    {
+        "event_name": "Snack: Poutine",
+        "event_time": "12:30 am - 2:30 am Sunday, September 15th",
+        "location": "RBC Oasis Tent",
+        "description": "Enjoy a late-night snack of classic Canadian poutine."
+    },
+    {
+        "event_name": "Movie Night",
+        "event_time": "2 am till 4 am Sunday, September 15th",
+        "location": "Activities Room",
+        "description": "Wind down with a movie screening. A selection of popular films will be shown."
+    },
+    {
+        "event_name": "Breakfast: Breakfast Bowls",
+        "event_time": "8 am till 10:30 am Sunday, September 15th",
+        "location": "RBC Oasis Tent",
+        "description": "Start your morning with hearty breakfast bowls, packed with flavor and nutrition."
+    },
+    {
+        "event_name": "Hardware Checkout Closes",
+        "event_time": "8:00 am Sunday, September 15th",
+        "location": "Shopify Hardware Hub",
+        "description": "Last chance to return any borrowed hardware items."
+    },
+    {
+        "event_name": "Hacking Ends",
+        "event_time": "8 am Sunday, September 15th",
+        "location": "Hackathon Venue",
+        "description": "The hacking period concludes. Prepare for project submissions."
+    },
+    {
+        "event_name": "Submit to Dev Post",
+        "event_time": "Judging block 10 am till 1 pm Sunday, September 15th",
+        "location": "Judging Rooms A-L",
+        "description": "Submit final projects to Dev Post and prepare for the judging process."
+    },
+    {
+        "event_name": "Hardware Return",
+        "event_time": "10 am till 2 pm Sunday, September 15th",
+        "location": "Shopify Hardware Hub",
+        "description": "Return all borrowed hardware to the Shopify Hardware Hub."
+    },
+    {
+        "event_name": "Lunch: Walking Tacos",
+        "event_time": "11 am till 1 pm Sunday, September 15th",
+        "location": "RBC Oasis Tent",
+        "description": "Enjoy walking tacos, a fun and easy lunch option on the go."
+    },
+    {
+        "event_name": "Hacky Hour",
+        "event_time": "12:30 - 2 pm Sunday, September 15th",
+        "location": "E7 1st floor",
+        "description": "Grab a snack, meet hackers, and learn more about each other's projects during this social hour."
+    },
+    {
+        "event_name": "Closing Ceremonies",
+        "event_time": "2:30 pm till 4:30 pm Sunday, September 15th",
+        "location": "Lazaridis Hall",
+        "description": "Celebrate the end of the hackathon with award presentations and final remarks."
+    },
+    {
+        "event_name": "Finalist Hardware Return",
+        "event_time": "4:00 - 4:30 Sunday, September 15th",
+        "location": "Shopify Hardware Hub",
+        "description": "Finalists return any remaining hardware. Wrap up the weekend with live demos of finalist projects."
+    }
+]
