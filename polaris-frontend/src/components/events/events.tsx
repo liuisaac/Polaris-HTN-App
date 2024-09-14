@@ -1,8 +1,8 @@
-"use client";
+"use client"; // This tells Next.js that this is a client-side component
 
-import { useState } from 'react';
-import eventsData from './events_data.json';
-import styles from './eventspage.module.css'; // Import the CSS Module
+import { useEffect, useState } from 'react';
+import eventsData from './events_data.json'; // Assuming you have an events data JSON file
+import styles from './eventspage.module.css'; // Import the CSS module
 
 interface Event {
   event_name: string;
@@ -14,6 +14,22 @@ interface Event {
 export default function EventsPage() {
   const [filter, setFilter] = useState<string>('');
   const [sortType, setSortType] = useState<string>('event_time');
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  useEffect(() => {
+    const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    setIsDarkMode(darkModeMediaQuery.matches);
+
+    const handleChange = (e: MediaQueryListEvent) => {
+      setIsDarkMode(e.matches);
+    };
+
+    darkModeMediaQuery.addEventListener('change', handleChange);
+    
+    return () => {
+      darkModeMediaQuery.removeEventListener('change', handleChange);
+    };
+  }, []);
 
   const filteredEvents: Event[] = eventsData
     .filter((event: Event) =>
@@ -30,20 +46,25 @@ export default function EventsPage() {
     });
 
   return (
-    <div>
+    <div className={styles.localRoot}>
       <h1>Events at Hack the North</h1>
+      
+      {/* Search bar */}
       <input
         type="text"
+        className={styles.searchInput}  // Local class for input
         placeholder="Search events"
         onChange={(e) => setFilter(e.target.value)}
         value={filter}
       />
+      
+      {/* Sorting dropdown */}
       <select onChange={(e) => setSortType(e.target.value)} value={sortType}>
         <option value="event_time">Sort by Time</option>
         <option value="event_name">Sort by Name</option>
       </select>
 
-      {/* Apply the styles from the CSS Module */}
+      {/* Event cards */}
       <div className={styles.eventsContainer}>
         {filteredEvents.map((event: Event, index: number) => (
           <div className={styles.eventCard} key={index}>
