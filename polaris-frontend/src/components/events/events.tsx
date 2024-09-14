@@ -1,8 +1,8 @@
-"use client"; // This tells Next.js that this is a client-side component
+"use client";
 
 import { useEffect, useState } from 'react';
-import eventsData from './events_data.json'; // Assuming you have an events data JSON file
-import styles from './eventspage.module.css'; // Import the CSS module
+import eventsData from './events_data.json';
+import styles from './eventspage.module.css';
 
 interface Event {
   event_name: string;
@@ -48,20 +48,21 @@ export default function EventsPage() {
 
   return (
     <div className={styles.localRoot}>
+      <div className = "center">
       <h1>Events at Hack the North</h1>
-
+      </div>
       {/* Fixed filter and sort */}
       <div className={styles.fixedFilterSort}>
         <input
           type="text"
-          className={styles.searchInput}  // Local class for input
+          className={styles.searchInput}
           placeholder="Search events"
-          onChange={(e) => setFilter(e.target.value)}  // Corrected the search handler
+          onChange={(e) => setFilter(e.target.value)}
           value={filter}
         />
 
         <select
-          className={styles.sortDropdown} // Added class for the select dropdown
+          className={styles.sortDropdown}
           onChange={(e) => setSortType(e.target.value)}
           value={sortType}
         >
@@ -70,7 +71,7 @@ export default function EventsPage() {
         </select>
       </div>
 
-      {/* Adjusted padding to prevent overlap with the fixed filter/sort bar */}
+      {}
       <div className={styles.eventsContainer}>
         {filteredEvents.map((event: Event, index: number) => (
           <div className={styles.eventCard} key={index}>

@@ -34,4 +34,7 @@ body {
   @apply flex flex-row items-center justify-center;
 }
 
+.center {
+  text-align: center;
+}
 
