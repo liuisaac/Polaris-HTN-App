@@ -55,7 +55,7 @@ export default function EventsPage() {
       <div className={styles.fixedFilterSort}>
         <input
           type="text"
-          className={styles.searchInput}
+          className={styles.searchInput} 
           placeholder="Search events"
           onChange={(e) => setFilter(e.target.value)}
           value={filter}
