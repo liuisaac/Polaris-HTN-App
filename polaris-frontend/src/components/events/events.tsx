@@ -31,9 +31,10 @@ export default function EventsPage() {
     };
   }, []);
 
+  // Filtering and Sorting Events
   const filteredEvents: Event[] = eventsData
     .filter((event: Event) =>
-      event.event_name.toLowerCase().includes(filter.toLowerCase()) ||
+      event.event_name.toLowerCase().includes(filter.toLowerCase()) || 
       event.description.toLowerCase().includes(filter.toLowerCase())
     )
     .sort((a: Event, b: Event) => {
@@ -48,23 +49,28 @@ export default function EventsPage() {
   return (
     <div className={styles.localRoot}>
       <h1>Events at Hack the North</h1>
-      
-      {/* Search bar */}
-      <input
-        type="text"
-        className={styles.searchInput}  // Local class for input
-        placeholder="Search events"
-        onChange={(e) => setFilter(e.target.value)}
-        value={filter}
-      />
-      
-      {/* Sorting dropdown */}
-      <select onChange={(e) => setSortType(e.target.value)} value={sortType}>
-        <option value="event_time">Sort by Time</option>
-        <option value="event_name">Sort by Name</option>
-      </select>
 
-      {/* Event cards */}
+      {/* Fixed filter and sort */}
+      <div className={styles.fixedFilterSort}>
+        <input
+          type="text"
+          className={styles.searchInput}  // Local class for input
+          placeholder="Search events"
+          onChange={(e) => setFilter(e.target.value)}  // Corrected the search handler
+          value={filter}
+        />
+
+        <select
+          className={styles.sortDropdown} // Added class for the select dropdown
+          onChange={(e) => setSortType(e.target.value)}
+          value={sortType}
+        >
+          <option value="event_time">Sort by Time</option>
+          <option value="event_name">Sort by Name</option>
+        </select>
+      </div>
+
+      {/* Adjusted padding to prevent overlap with the fixed filter/sort bar */}
       <div className={styles.eventsContainer}>
         {filteredEvents.map((event: Event, index: number) => (
           <div className={styles.eventCard} key={index}>
