@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Saira, Bebas_Neue } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/nav/Navbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -43,6 +44,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${saira.variable} ${bebas.variable} antialiased`}
       >
+        <Navbar/>
         {children}
       </body>
     </html>

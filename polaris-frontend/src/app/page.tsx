@@ -37,6 +37,7 @@ export default function Home() {
                 <button className="bg-button-orange rounded-lg w-72 h-12 text-black font-saira text-xl tracking-tighter font-medium mt-36">
                     See what hackers are up to -{'>'}
                 </button>
+
             </div>
         </div>
     );
