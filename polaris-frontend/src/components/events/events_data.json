@@ -304,7 +304,7 @@
         "event_time": "4:00 till 4:30 Sunday, September 15th",
         "location": "Shopify Hardware Hub",
         "description": "Finalists return any remaining hardware. Wrap up the weekend with live demos of finalist projects."
-    }
+    },
     {
     "event_name": "Idea to Startup",
     "event_time": "2:00 PM - 3:00 PM",
@@ -424,7 +424,7 @@
     "event_time": "2:00 PM - 3:00 PM",
     "location": "Workshop Room 4B",
     "description": "Learn how to effectively pitch your hackathon project to judges, including demoing tips and techniques."
-    }
+    },
     {
         "event_name": "Convex: How to Use the Convex Backend Platform to Build a Full-Stack Web App in Minutes",
         "event_time": "12:00 AM - 12:30 AM",
@@ -514,7 +514,7 @@
         "event_time": "3:00 AM - 3:30 AM",
         "location": "Workshop Room 4A",
         "description": "Explore terminal tips and tricks to increase productivity and learn the fascinating history of terminals in this deep dive."
-    }
+    },
     {
       "event_name": "MASV Lightning Challenge",
       "event_time": "10:30 AM - 11:30 AM",
