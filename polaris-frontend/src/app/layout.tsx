@@ -3,7 +3,6 @@ import localFont from "next/font/local";
 import { Saira, Baumans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/nav/Navbar";
-import NotificationButton from "@/components/NotificationButton";
 import dynamic from 'next/dynamic';
 const ServiceWorkerRegister = dynamic(() => import('../components/ServiceWorkerRegister'), {
     ssr: false, // Ensure this is only rendered on the client side
@@ -50,7 +49,6 @@ export default function RootLayout({
             >
                 <Navbar />
                 {children}
-                <NotificationButton />
                 <ServiceWorkerRegister />
             </body>
         </html>

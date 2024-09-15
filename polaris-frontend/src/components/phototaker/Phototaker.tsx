@@ -1,14 +1,17 @@
 "use client";
 
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import React, { useRef, useState, useEffect } from "react";
 
 const PhotoTaker: React.FC = () => {
+    const router = useRouter();
     const [photo, setPhoto] = useState<string | null>(null);
     const [photo2, setPhoto2] = useState<string | null>(null);
     const [facingMode, setFacingMode] = useState<"user" | "environment">(
         "user"
     );
+
     const [uploading, setUploading] = useState<boolean>(false); // For tracking upload status
     const videoRef = useRef<HTMLVideoElement>(null);
     const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -63,44 +66,43 @@ const PhotoTaker: React.FC = () => {
 
         const convertBase64ToBlob = (base64Image: string): Blob => {
             // Remove the data URL prefix if present
-            const base64Data = base64Image.split(',')[1];
+            const base64Data = base64Image.split(",")[1];
             if (!base64Data) {
-                throw new Error('Invalid base64 string');
+                throw new Error("Invalid base64 string");
             }
-        
+
             const byteCharacters = atob(base64Data);
             const byteNumbers = new Array(byteCharacters.length);
             for (let i = 0; i < byteCharacters.length; i++) {
                 byteNumbers[i] = byteCharacters.charCodeAt(i);
             }
             const byteArray = new Uint8Array(byteNumbers);
-            return new Blob([byteArray], { type: 'image/png' });
+            return new Blob([byteArray], { type: "image/png" });
         };
-        
-    
+
         const base64ImageFront = photo; // Base64 string for the front image
         const blobFront = convertBase64ToBlob(base64ImageFront);
-    
+
         const base64ImageBack = photo2; // Base64 string for the back image
         const blobBack = convertBase64ToBlob(base64ImageBack);
-    
+
         const formData = new FormData();
         formData.append("namef", `photo_front_${Date.now()}.png`); // Image name for the front
         formData.append("imgf", blobFront); // Image data for the front
         formData.append("nameb", `photo_back_${Date.now()}.png`); // Image name for the front
         formData.append("imgb", blobBack); // Image data for the back
-    
+
         try {
             const response = await fetch("http://localhost:8080/upload", {
                 method: "POST",
                 body: formData, // Use FormData
             });
-    
+
             // Check if the response is OK and parse it as JSON
             const data = await response.json();
-    
+
             if (response.ok) {
-                alert(data.message);
+                router.push("/photos");
             } else {
                 console.error(data.error);
                 alert(`Error uploading photo: ${data.error}`);
@@ -110,8 +112,6 @@ const PhotoTaker: React.FC = () => {
             alert("Error uploading photo. Please try again.");
         }
     };
-    
-    
 
     useEffect(() => {
         startCamera();
@@ -223,7 +223,11 @@ const PhotoTaker: React.FC = () => {
                 <button
                     onClick={submitPhoto}
                     disabled={!photo2}
-                    className={`${!photo2 ? "bg-[#141414]" : "bg-[#160546]"} rounded-full ${!photo2 ? "text-gray-200" : "text-white"} font-semibold tracking-wide w-full h-10 mt-5 relative`}
+                    className={`${
+                        !photo2 ? "bg-[#141414]" : "bg-[#160546]"
+                    } rounded-full ${
+                        !photo2 ? "text-gray-200" : "text-white"
+                    } font-semibold tracking-wide w-full h-10 mt-5 relative`}
                 >
                     SUBMIT PHOTO
                 </button>

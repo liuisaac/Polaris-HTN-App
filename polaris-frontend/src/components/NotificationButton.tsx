@@ -38,6 +38,7 @@ const saveSubscription = async (subscription: PushSubscription) => {
 const NotificationButton = () => {
     const [isSubscribed, setIsSubscribed] = useState<boolean>(false);
     const [error, setError] = useState<string | null>(null);
+    const [hidden, setHidden] = useState(false);
 
     // Check if the browser supports necessary APIs
     const checkPermission = () => {
@@ -90,6 +91,7 @@ const NotificationButton = () => {
 
     // Subscribe to notifications
     const subscribeToNotifications = async () => {
+        setHidden(true);
         if (!checkPermission()) return;
 
         try {
@@ -115,8 +117,10 @@ const NotificationButton = () => {
     };
 
     return (
-        <div>
+        <div className={`w-screen h-screen bg-black bg-opacity-60 backdrop-blur-lg absolute top-0 z-40 ${hidden ? "hidden" : "flex-col-centered"}`}>
             {error && <div className="mb-4 p-2 bg-red-500 text-white rounded">{error}</div>}
+            <span className="text-white font-5xl text-center w-full">Set up notifications </span>
+            <span className="text-[#949494] font-3xl text-center w-[60vw]">to get alerts to every round of photo taking throughout the event</span>
             <button
                 onClick={subscribeToNotifications}
                 disabled={isSubscribed}
