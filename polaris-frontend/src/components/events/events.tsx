@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import eventsData from "./events_data.json";
-import styles from "./eventspage.module.css";
 import Image from "next/image";
 
 interface Event {
@@ -106,7 +105,7 @@ export default function EventsPage() {
                         <p className="text-[#949494]">
                             <strong>Location:</strong> {event.location}
                         </p>
-                        <div className={styles.eventInfo}>
+                        <div className="text-[14px]">
                             <p>{event.description}</p>
                         </div>
                         <button className="w-full h-8 my-2 bg-[#76238B] rounded-md font-semibold" onClick={() => {}}>
