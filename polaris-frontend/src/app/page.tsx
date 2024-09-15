@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
     return (
         <div className="font-saira bg-space-blue w-screen h-screen text-white flex-col-centered">
-            <figure className="absolute w-[100vw] h-[75vh] top-0">
+            <figure className="absolute w-[100vw] h-[75vh] top-0 animate-pulse-slow">
                 <Image
                     src="/hero/star_bg_mobile.svg"
                     alt="background picture"

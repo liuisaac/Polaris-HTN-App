@@ -18,6 +18,9 @@ const config: Config = {
                 "space-blue": "#031E3C",
                 "button-orange": "#FF7A00",
             },
+            animation: {
+                "pulse-slow": "pulse 4s cubic-bezier(0.4, 0.4, 0.6, 1) infinite;",
+            },
         },
     },
     plugins: [],
