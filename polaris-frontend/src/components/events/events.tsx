@@ -105,12 +105,9 @@ export default function EventsPage() {
                         <p className="text-[#949494]">
                             <strong>Location:</strong> {event.location}
                         </p>
-                        <div className="text-[14px]">
+                        <div className="flex-row-centered text-center px-2 text-[14px] w-full my-2 bg-[#76238B] rounded-md font-semibold" >
                             <p>{event.description}</p>
                         </div>
-                        <button className="w-full h-8 my-2 bg-[#76238B] rounded-md font-semibold" onClick={() => {}}>
-                            I'm interested in this activity
-                        </button>
                     </div>
                 ))}
             </div>

@@ -1,9 +1,14 @@
-import React from 'react'
-import EventsPage from '@/components/events/events'
-const page = () => {
+import React from 'react';
+import EventsPage from '@/components/events/events';
+import Chatbot from '@/components/events/chatbox';
+
+const Page = () => {
   return (
-    <EventsPage />
-  )
+    <>
+      <EventsPage />
+      <Chatbot />
+    </>
+  );
 }
 
-export default page
+export default Page;
