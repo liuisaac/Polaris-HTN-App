@@ -55,9 +55,7 @@ export default function EventsPage() {
     return (
         <div className="flex-col-centered mt-12 bg-space-blue">
             <div className="center">
-                <h1>Events at Hack the North</h1>
             </div>
-            {/* Fixed filter and sort */}
             <div className="w-[90vw] h-12 flex-row-centered">
                 <figure className="absolute w-6 h-6 left-0 ml-6">
                     <Image
