@@ -12,6 +12,9 @@ const PhotoTaker: React.FC = () => {
         "user"
     );
 
+    const [author, setAuthor] = useState("");
+    const [caption, setCaption] = useState("");
+
     const [uploading, setUploading] = useState<boolean>(false); // For tracking upload status
     const videoRef = useRef<HTMLVideoElement>(null);
     const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -91,6 +94,10 @@ const PhotoTaker: React.FC = () => {
         formData.append("imgf", blobFront); // Image data for the front
         formData.append("nameb", `photo_back_${Date.now()}.png`); // Image name for the front
         formData.append("imgb", blobBack); // Image data for the back
+        formData.append("caption", caption);
+        formData.append("author", author);
+
+        // Append some shit here
 
         try {
             const response = await fetch("http://localhost:8080/upload", {
@@ -124,7 +131,7 @@ const PhotoTaker: React.FC = () => {
     }, [facingMode]); // Restart camera when facingMode changes
 
     return (
-        <div className="w-[80vw] h-[80vh] bg-[#21234B] border border-gray-200 rounded-2xl flex flex-col items-center justify-center">
+        <div className="w-[80vw] h-[90vh] bg-[#21234B] border border-gray-200 rounded-2xl flex flex-col items-center justify-center mt-12">
             <div className="h-24 text-white font-saira flex-col-centered">
                 <span className="text-3xl font-medium">
                     Photo Number {photo ? "2/2" : "1/2"}{" "}
@@ -181,7 +188,23 @@ const PhotoTaker: React.FC = () => {
                 </>
             )}
 
-            <div className="mt-4 h-56 flex-col-centered">
+            <div className="mt-4 h-72 flex-col-centered">
+                <input
+                    type="text"
+                    className="bg-transparent border border-[#949494] h-8 w-[70vw] pl-8 rounded-full text-white"
+                    placeholder="A Witty Caption"
+                    onChange={(e) => setCaption(e.target.value)}
+                    value={caption}
+                />
+
+                <input
+                    type="text"
+                    className="bg-transparent border border-[#949494] h-8 w-[70vw] pl-8 rounded-full text-white mt-2 mb-8"
+                    placeholder="Author Name"
+                    onChange={(e) => setAuthor(e.target.value)}
+                    value={author}
+                />
+
                 <div className="flex-row-centered">
                     <button
                         onClick={toggleCamera}
@@ -220,6 +243,7 @@ const PhotoTaker: React.FC = () => {
                         />
                     </button>
                 </div>
+
                 <button
                     onClick={submitPhoto}
                     disabled={!photo2}
