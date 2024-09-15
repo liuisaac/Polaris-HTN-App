@@ -10,7 +10,7 @@ const config: Config = {
         extend: {
             fontFamily: {
                 saira: ["var(--font-saira)"],
-                bebas: ["var(--font-bebas)"],
+                baumans: ["var(--font-baumans)"],
             },
             colors: {
                 background: "var(--background)",
