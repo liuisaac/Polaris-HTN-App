@@ -8,7 +8,7 @@ import Link from "next/link";
 const Navbar = () => {
     const [hamburger, setHamburger] = useState(false);
     return (
-        <nav className="w-screen h-12 bg-[#141414] flex-col-centered z-50 fixed top-0">
+        <nav className="w-screen h-12 bg-[#141414] flex-col-centered z-50 fixed top-0 font-saira font-medium tracking-tighter italic">
             <div className="w-[100vw] flex-row-centered h-12 z-10">
                 <Link className="relative w-40 h-12 ml-4" href="/">
                     <Image

@@ -39,3 +39,9 @@ body {
   font-family: GeistMonoVFl;
 }
 
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video fills the container while maintaining aspect ratio */
+  border-radius: 12px; /* Match the styling of your container */
+}
