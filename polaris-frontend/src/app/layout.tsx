@@ -3,10 +3,15 @@ import localFont from "next/font/local";
 import { Saira, Baumans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/nav/Navbar";
-import dynamic from 'next/dynamic';
-const ServiceWorkerRegister = dynamic(() => import('../components/ServiceWorkerRegister'), {
-    ssr: false, // Ensure this is only rendered on the client side
-});
+import dynamic from "next/dynamic";
+import Head from "next/head";
+
+const ServiceWorkerRegister = dynamic(
+    () => import("../components/ServiceWorkerRegister"),
+    {
+        ssr: false, // Ensure this is only rendered on the client side
+    }
+);
 const geistSans = localFont({
     src: "./fonts/GeistVF.woff",
     variable: "--font-geist-sans",
@@ -47,6 +52,23 @@ export default function RootLayout({
             <body
                 className={`${geistSans.variable} ${geistMono.variable} ${saira.variable} ${baumans.variable} antialiased`}
             >
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                (function(d, t) {
+                    var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                    v.onload = function() {
+                      window.voiceflow.chat.load({
+                        verify: { projectID: '66e67d527af498a717cb4e11' },
+                        url: 'https://general-runtime.voiceflow.com/',
+                        versionID: 'production'
+                      });
+                    }
+                    v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+                })(document, 'script');
+              `,
+                    }}
+                />
                 <Navbar />
                 {children}
                 <ServiceWorkerRegister />
