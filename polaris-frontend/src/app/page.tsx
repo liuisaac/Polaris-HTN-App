@@ -36,7 +36,7 @@ export default function Home() {
                     <span className="font-semibold">shouldn't be</span>
                 </h2>
                 <Link
-                    href="./events"
+                    href="./snap"
                     className="bg-button-orange rounded-lg w-72 h-12 text-black font-saira text-xl tracking-tighter font-semibold mt-36 flex-row-centered"
                 >
                     See what hackers are up to
